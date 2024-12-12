@@ -1,0 +1,58 @@
+# macOS system files
+.DS_Store
+
+# Xcode specific files
+DerivedData/
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcworkspace
+
+# Build artifacts
+build/
+*.ipa
+*.dSYM
+*.app
+
+# Swift Package Manager
+/.build/
+/Packages
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Firebase
+GoogleService-Info.plist
+
+# Carthage
+Carthage/Build
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.env
+.fastlane/
+
+# Other generated files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Logs
+*.log
+*.xcactivitylog
+
+# Custom exclusion for Firebase's debug configuration files
+*.secret
